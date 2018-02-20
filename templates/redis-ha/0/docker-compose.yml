@@ -2,7 +2,7 @@ version: '2'
 
 services:
   redis:
-    image: resta/redis-ha
+    image: restra/redis-ha
     environment:
       REDIS_HA_MASTER_PASSWORD: ${redis_password}
 
