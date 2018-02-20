@@ -2,7 +2,7 @@ version: '2'
 
 catalog:
   name: Redis HA
-  version: v1.0.0-rancher1
+  version: v1.0.0-test
 
   questions:
     - variable: "redis_password"
